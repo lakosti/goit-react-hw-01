@@ -39,35 +39,22 @@
   margin-bottom: 20px;
 }
 .profileListWrap {
-  height: 80px;
   background-color: rgb(218, 214, 214);
   border-top: 2px solid grey;
 }
 .profileList {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  list-style: none;
   display: flex;
-  gap: 20px;
 }
 .profileItem {
-  position: relative;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
+  padding: 15px;
+  width: calc(100% / 3);
 }
-.profileItem:not(:last-child):after {
-  position: absolute;
-  right: -78px;
-  bottom: 22px;
-  content: "";
-  display: block;
-  height: 2px;
-  width: 80px;
-  border: 1px solid grey;
-  transform: rotate(-90deg);
+.profileItem:not(:last-child) {
+  border-right: 2px solid grey;
 }
 .profileTitle {
   font-family: sans-serif;
