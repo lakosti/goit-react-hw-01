@@ -1,0 +1,44 @@
+.transactionWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.transactionHead {
+  background-color: black;
+  color: white;
+}
+.table {
+  table-layout: fixed;
+  width: 600px;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.transactionHead th:nth-child(1) {
+  width: 33%;
+}
+
+.transactionHead th:nth-child(2) {
+  width: 33%;
+}
+
+.transactionHead th:nth-child(3) {
+  width: 33%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.transactionBody td {
+  text-align: center;
+}
+.transactionBody {
+  text-align: center;
+}
+.transactionBody tr:nth-child(even) {
+  background-color: rgb(173, 173, 173);
+}
