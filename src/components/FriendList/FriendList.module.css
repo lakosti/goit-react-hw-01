@@ -1,0 +1,35 @@
+.friendsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.friendsItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid rgb(160, 158, 158);
+  border-radius: 30px;
+}
+.friendsImg {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 5px;
+}
+.friendsName {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.friendsStatus {
+  color: red;
+  text-align: center;
+}
+.cardOnline {
+  color: green;
+}

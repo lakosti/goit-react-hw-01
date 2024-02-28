@@ -2,7 +2,7 @@
   border-radius: 20px;
   border: 2px solid black;
   width: 400px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   overflow: hidden;
 }
 .profileImgWrap {
